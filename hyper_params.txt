@@ -1,0 +1,9 @@
++ cpuk value(exploration vs exploitation) constant : 1.0
++ temperature for stable_normalizer : 1.0
++ nmcts for crossvalidation experiment : 1000
++ Learning rate for Adam Optimizer while training the models : 1e-3
++ PRETRAINING_SIZE (Dataset size which is collected by experiences while in
+training mode before models are trained) : 3000
++ Dirichlet Noise added to the nodes' prior:
+    - a : 2/10
+    - e : 0.25
